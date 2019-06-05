@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cuadro1{
+   background-color:green;
+  }
+  .cuadro2{
+   background-color:white;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cuadro3{
+   background-color:red;
+  }
+
+.altura{
+    height: 250px;
+}
+  .escudo{
+      width: 250px;
+      height: 250px;
+  }
+
+  @media (min-width: 768px){
+      .altura{
+          height: 100vh;
+      }
+  }
